@@ -2,7 +2,7 @@ name: Monitor de Passagens Aéreas
 
 on:
   schedule:
-    - cron: '0 13 * * *'  # Executa todo dia às 10h da manhã no horário de Brasília (13h UTC)
+    - cron: '0 13 * * *'  # Executa todo dia às 10h (horário de Brasília)
   workflow_dispatch:
 
 jobs:
